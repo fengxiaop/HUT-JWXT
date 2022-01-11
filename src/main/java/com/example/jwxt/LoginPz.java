@@ -25,9 +25,9 @@ import java.util.Map;
 public class LoginPz {
     public static String hello() {
         Map<String,String> param = new HashMap<>();
-        String userAccount = "19408000322";
-        String userPassword = "pj20020318";
-        String encoded = "MTk0MDgwMDAzMjI=%%%cGoyMDAyMDMxOA==";//加密信息
+        String userAccount = "你的学号";
+        String userPassword = "你的密码";
+        String encoded = "教务系统拿到的加密信息";//加密信息
         param.put("userAccount",userAccount);
         param.put("userPassword",userPassword);
         param.put("encoded",encoded);

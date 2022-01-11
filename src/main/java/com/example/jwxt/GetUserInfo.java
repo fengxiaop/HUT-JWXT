@@ -47,18 +47,6 @@ public class GetUserInfo {
                 parseHtml(parse);
                 Thread thread = new Thread();
                 thread.sleep(600000);
-//            Element element = parse.getElementById("dataList");
-//            Elements elements = parse.getElementsByTag("th");
-////            Elements element2s = parse.getElementsByTag("td");
-////            System.out.println(element);
-////            for (Element el :elements) {
-////                System.out.println("----------------------------------------------------------");
-////                System.out.println(el);
-////            }
-//            for (Element el : element2s) {
-////                System.out.println("----------------------------------------------------------");
-////                System.out.println(el.html());
-//            }
             } catch (Exception e) {
             }
 
